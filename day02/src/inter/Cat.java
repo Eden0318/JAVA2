@@ -10,13 +10,13 @@ public class Cat implements Animal{
 
 	@Override
 	public void sleep() {
-		System.out.println("잠을 잘잔다");
+		System.out.println("잠을 잘 잔다");
 		
 	}
 
 	@Override
-	public void getHand() {
-		System.out.println("손을 흔들지 않는다");
+	public void getHaned() {
+		System.out.println("손을 주지 않는다");
 		
 	}
 
@@ -26,4 +26,5 @@ public class Cat implements Animal{
 		
 	}
 	
+
 }
